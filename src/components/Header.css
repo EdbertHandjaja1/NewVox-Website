@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 80px; /* Adjusted to align better with the text */
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social a {
+  color: black;
+  font-size: 24px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.social a:hover {
+  color: purple;
+}

@@ -1,0 +1,93 @@
+.home {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  background-color: #f3f3f3;
+  height: 80vh;
+  color: #5201d5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h2 {
+  font-size: 52px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero h4 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: normal;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #555;
+}
+
+.sections-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  gap: 30px;
+  padding: 50px;
+  background: linear-gradient(135deg, #fafafa, #e8e8ff); /* Smooth gradient background */
+}
+
+.section {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  height: 450px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
+  background: linear-gradient(135deg, #ffffff, #f0f0ff); /* Slight gradient for sections */
+}
+
+.section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.section h3 {
+  font-size: 26px;
+  color: #5201d5;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.picture {
+  background: linear-gradient(135deg, #c1c1fd, #e0e0ff); /* Gradient for picture background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border-radius: 12px;
+  height: 450px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
+}
+
+.picture:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.picture p {
+  font-size: 20px;
+  margin: 0;
+}

@@ -1,0 +1,48 @@
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #5201d5;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.team {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.team h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #5201d5;
+  text-align: center;
+}
+
+.team-member {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #666;
+}
