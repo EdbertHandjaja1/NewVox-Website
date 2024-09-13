@@ -57,16 +57,16 @@ body {
 .team-member-content {
   display: flex;
   align-items: flex-start;
-  gap: 20px; /* Space between the text and image */
+  gap: 20px;
 }
 
 .team-member-text {
-  flex: 1; /* Makes the text take up the available space */
+  flex: 1; 
 }
 
 .team-member-image {
-  width: 150px; /* Set a fixed width for the image */
-  height: auto; /* Maintain the aspect ratio */
-  border-radius: 12px; /* Optional: Adds rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 150px; 
+  height: auto; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }

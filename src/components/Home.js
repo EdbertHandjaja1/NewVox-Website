@@ -23,7 +23,7 @@ const Home = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check in case sections are already in view
+    handleScroll(); 
 
     return () => {
       window.removeEventListener('scroll', handleScroll);

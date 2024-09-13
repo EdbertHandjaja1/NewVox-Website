@@ -1,22 +1,20 @@
-/* Global application of Exo 2 font */
 body {
   font-family: 'Exo 2', sans-serif;
 }
 
 .home {
-  font-family: 'Exo 2', sans-serif; /* Updated font */
+  font-family: 'Exo 2', sans-serif;
 }
 
 .combined-background {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23b3a6ff" fill-opacity="0.7" d="M0,160L48,138.7C96,117,192,75,288,96C384,117,480,203,576,240C672,277,768,267,864,224C960,181,1056,107,1152,96C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path><path fill="%235201d5" fill-opacity="0.3" d="M0,288L40,272C80,256,160,224,240,202.7C320,181,400,171,480,186.7C560,203,640,245,720,266.7C800,288,880,288,960,266.7C1040,245,1120,203,1200,197.3C1280,192,1360,224,1400,240L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>') no-repeat;
   background-size: cover;
-  padding: 0; /* Remove any padding around the combined content */
+  padding: 0;
   animation: waveAnimation 10s infinite alternate;
   position: relative;
   overflow: hidden;
 }
 
-/* Add subtle animation for a mesmerizing effect */
 @keyframes waveAnimation {
   0% {
     background-position: 0% 0%;
@@ -26,9 +24,8 @@ body {
   }
 }
 
-
 .hero {
-  background-color: transparent; /* Remove the background color */
+  background-color: transparent;
   height: 80vh;
   color: #5201d5;
   display: flex;
@@ -62,17 +59,17 @@ body {
 
 .sections-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns layout */
-  gap: 10px; /* Small gap between the sections */
-  padding: 20px; /* Adjusted padding for better spacing */
-  align-items: start; /* Aligns items to the start of the row */
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+  align-items: start;
 }
 
 .section {
-  padding: 0; /* Remove padding */
-  background-color: transparent; /* No background */
-  border-radius: 0; /* No rounded corners */
-  box-shadow: none; /* No shadow */
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,7 +80,7 @@ body {
   font-size: 26px;
   color: #5201d5;
   margin-bottom: 15px;
-  padding: 0 20px; /* Adds padding to the title to make it narrower */
+  padding: 0 20px; 
 }
 
 .section p {
@@ -113,18 +110,17 @@ body {
 }
 
 .scroll-animation {
-  opacity: 0; /* Start hidden */
-  transform: translateY(20px); /* Slightly moved down */
+  opacity: 0;
+  transform: translateY(20px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   padding: 0 20px;
 }
 
 .scroll-animation-visible {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* Moves back to its place */
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Apply scroll animation effect specifically for sections */
 .section {
   padding: 0;
   background-color: transparent;
@@ -137,23 +133,21 @@ body {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-/* Styles for the OUR APPROACH section */
 .our-approach-section {
-  margin-top: 50px; /* Adjusts the vertical spacing to move the section down */
-  padding: 0 40px; /* Adds padding on both sides to reduce the width of the content */
+  margin-top: 50px;
+  padding: 0 40px; 
 }
 
 .our-approach-text {
-  margin-top: 20px; /* Adjust this value to move the text down further if needed */
-  padding: 0 20px; /* Adds padding to the sides of the text to make it narrower */
+  margin-top: 20px;
+  padding: 0 20px;
 }
 
-/* Styles for the WHY NEWVOX section */
 .why-newvox-section {
-  padding: 0 40px; /* Adds padding on both sides to reduce the width of the content */
-  margin-top: 50px; /* Adds margin at the top to move the section down */
+  padding: 0 40px; 
+  margin-top: 50px; 
 }
 
 .why-newvox-text {
-  padding: 0 20px; /* Adds padding to the sides of the text to make it narrower */
+  padding: 0 20px; 
 }

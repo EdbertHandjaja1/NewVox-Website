@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../image0.jpg'; // Adjust the path according to your logo location
+import logo from '../image0.jpg'; 
 
 const Header = () => {
   return (

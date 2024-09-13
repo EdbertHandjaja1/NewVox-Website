@@ -1,10 +1,10 @@
 import React from 'react';
 import './About.css';
-import Adithya from '../Adithya_Sathyamurthy.jpeg'; // Ensure the path is correct
-import Ved from '../Ved_Kommalapati.jpeg'; // Ensure the path is correct
-import Nicholas from '../Nicholas_Bruha.jpeg'; // Ensure the path is correct
-import Sameer from '../Sameer_Komoravolu.jpeg'; // Ensure the path is correct
-import Edbert from '../Edbert_Handjaja.jpg'; // Ensure the path is correct
+import Adithya from '../Adithya_Sathyamurthy.jpeg'; 
+import Ved from '../Ved_Kommalapati.jpeg'; 
+import Nicholas from '../Nicholas_Bruha.jpeg'; 
+import Sameer from '../Sameer_Komoravolu.jpeg'; 
+import Edbert from '../Edbert_Handjaja.jpg'; 
 
 const About = () => {
   return (
