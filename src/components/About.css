@@ -1,3 +1,9 @@
+/* Global font application */
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* About Section */
 .about {
   padding: 40px;
   text-align: center;
@@ -15,6 +21,7 @@
   color: #555;
 }
 
+/* Team Section */
 .team {
   text-align: left;
   max-width: 800px;
@@ -45,4 +52,21 @@
 .team-member p {
   font-size: 16px;
   color: #666;
+}
+
+.team-member-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Space between the text and image */
+}
+
+.team-member-text {
+  flex: 1; /* Makes the text take up the available space */
+}
+
+.team-member-image {
+  width: 150px; /* Set a fixed width for the image */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 12px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }

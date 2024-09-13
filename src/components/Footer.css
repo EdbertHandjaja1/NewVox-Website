@@ -1,5 +1,5 @@
 footer {
-  background-color: #f0f0f0;
+  background-color: #c1c1fe;
   padding: 40px 20px;
   text-align: center;
   border-top: 1px solid #ccc;
@@ -27,6 +27,7 @@ footer input {
   border-radius: 4px;
   width: 250px;
   transition: transform 0.2s ease-in-out;
+  background-color: #eee7fc;
 }
 
 footer input:hover {
