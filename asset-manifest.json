@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/NewVox-Website/static/css/main.6e58983f.css",
+    "main.js": "/NewVox-Website/static/js/main.7f71813d.js",
+    "static/media/image0.jpg": "/NewVox-Website/static/media/image0.01b3a95f086ca0bd4b29.jpg",
+    "static/media/Why_NewVox.webp": "/NewVox-Website/static/media/Why_NewVox.7c39af88bbed038a0aaa.webp",
+    "static/media/Ved_Kommalapati.jpeg": "/NewVox-Website/static/media/Ved_Kommalapati.b00565e3f8aad9859e19.jpeg",
+    "static/media/Nicholas_Bruha.jpeg": "/NewVox-Website/static/media/Nicholas_Bruha.197fadb4601d77d8b972.jpeg",
+    "static/media/Sameer_Komoravolu.jpeg": "/NewVox-Website/static/media/Sameer_Komoravolu.e8dcfa9875e324dde6b3.jpeg",
+    "static/media/Adithya_Sathyamurthy.jpeg": "/NewVox-Website/static/media/Adithya_Sathyamurthy.5c3f381f626518860d0d.jpeg",
+    "static/media/Our_Approach.webp": "/NewVox-Website/static/media/Our_Approach.40f91f6064b8f9db58f7.webp",
+    "static/media/Edbert_Handjaja.jpg": "/NewVox-Website/static/media/Edbert_Handjaja.8eee8aa305cd90495f64.jpg",
+    "index.html": "/NewVox-Website/index.html",
+    "main.6e58983f.css.map": "/NewVox-Website/static/css/main.6e58983f.css.map",
+    "main.7f71813d.js.map": "/NewVox-Website/static/js/main.7f71813d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e58983f.css",
+    "static/js/main.7f71813d.js"
+  ]
+}
