@@ -4,6 +4,8 @@
 
 This project is a React-based website for NewVox, a startup aimed at improving the quality of life for people with Aphasia through innovative Augmented and Alternative Communication (AAC) technology. The website is designed to share information about NewVox, Aphasia, and the company's mission, as well as provide a platform for patients, families, and interested parties to learn about the company's efforts.
 
+**Live Website**: You can view the website [here](https://66e40f00e86395f9dfb291d5--startling-biscotti-c48ada.netlify.app/).
+
 ## Features
 
 - **About Us Section**: Provides details about NewVox's background, goals, and founding story.
