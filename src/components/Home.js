@@ -38,9 +38,9 @@ const Home = () => {
           <h4>AI-POWERED LANGUAGE ASSISTANT</h4>
           <p>
             NewVox is dedicated to transforming the lives of individuals with
-            aphasia by utilizing an AI-driven solution. Our mission is to
-            empower those affected by aphasia to regain their independence and
-            quality of life through innovative technologies.
+            aphasia by utilizing an AI-driven solution. Our mission is to develop 
+            the first AI-powered aphasia therapy software that integrates both verbal and non-verbal 
+            forms rehabilitation exercises to provide a holistic approach when improving communication. 
           </p>
         </div>
         <div className="sections-container">
@@ -51,12 +51,10 @@ const Home = () => {
             <h3>OUR APPROACH</h3>
             <div>
               <p className="our-approach-text">
-                NewVox harnesses the power of Natural Language Processing (NLP)
+                NewVox harnesses the power of artificial intelligence
                 to assist those with Broca’s aphasia in communicating more
-                effectively. By predicting the intended message and correcting
-                errors in spoken language, our app ensures that patients can
-                express themselves clearly, improving both their communication
-                experience and quality of life.
+                effectively by building optimal training exercises that best fit 
+                the needs of each individual user.
               </p>
             </div>
             <div
@@ -64,14 +62,10 @@ const Home = () => {
               ref={(el) => sectionsRef.current.push(el)}
             >
               <p>
-                Unlike traditional AAC technologies, which often rely on
-                pre-programmed messages and limited vocabulary options, NewVox
-                offers a dynamic and adaptive solution that interprets and
-                predicts a patient’s intended message in real time, allowing for
-                more personalized, fluid communication. This innovative approach
-                overcomes the rigid limitations of existing AAC devices, giving
-                users greater freedom and accuracy in expressing themselves from
-                the comfort of their mobile device.
+                Unlike traditional aphasia-rehabilitation software, which often rely on
+                pre-programmed exercises and limited verbal-based therapy, NewVox
+                offers a dynamic and adaptive solution that incorporates hand gestures in exercises
+                to faciliate a multi-faceted recovery for individuals with aphasia.
               </p>
             </div>
           </div>
@@ -108,11 +102,9 @@ const Home = () => {
               ref={(el) => sectionsRef.current.push(el)}
             >
               <p>
-                Existing Augmentative and Alternative Communication (AAC)
-                technologies often fall short in meeting the needs of
-                individuals with aphasia due to their high costs and limited
-                adaptability. Many of these devices are prohibitively expensive,
-                and their outdated functionality fails to accommodate the
+                A lack of understanding of the prevalence and seriousness of aphasia has limited 
+                technological innovation in the field. Many of the current software and devices are 
+                prohibitively expensive and their outdated functionality fails to accommodate the
                 evolving needs of aphasia patients. NewVox strives to create an
                 affordable and effective solution to this problem.
               </p>
