@@ -35,7 +35,7 @@ const Home = () => {
       <div className="combined-background">
         <div className="hero">
           <h2>NEWVOX AI</h2>
-          <h4>AI-POWERED LANGUAGE ASSISTANT</h4>
+          <h4>HOLISTIC AI-POWERED APHASIA THERAPY PLATFORM</h4>
           <p>
             NewVox is dedicated to transforming the lives of individuals with
             aphasia by utilizing an AI-driven solution. Our mission is to develop 
